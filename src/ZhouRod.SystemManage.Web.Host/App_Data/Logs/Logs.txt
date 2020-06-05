@@ -1,0 +1,80 @@
+DEBUG 2020-05-24 08:56:34,976 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-24 08:56:35,212 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-24 08:56:35,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZhouRod.SystemManage.Web.Host.Startup.SystemManageWebHostModule, ZhouRod.SystemManage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,256 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZhouRod.SystemManage.SystemManageWebCoreModule, ZhouRod.SystemManage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,257 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZhouRod.SystemManage.SystemManageApplicationModule, ZhouRod.SystemManage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZhouRod.SystemManage.SystemManageCoreModule, ZhouRod.SystemManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,258 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,259 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,260 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,261 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZhouRod.SystemManage.EntityFrameworkCore.SystemManageEntityFrameworkModule, ZhouRod.SystemManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,262 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,262 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:35,269 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-24 08:56:35,423 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-24 08:56:35,424 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-24 08:56:35,424 [1    ] o.Configuration.LanguageManagementConfig - Converted SystemManage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-24 08:56:35,424 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-24 08:56:36,057 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ZhouRod.SystemManage.EntityFrameworkCore.SystemManageDbContext, ZhouRod.SystemManage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-24 08:56:37,635 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-24 08:56:37,680 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-24 08:56:37,692 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-24 08:56:37,699 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SystemManage
+DEBUG 2020-05-24 08:56:37,707 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-24 08:56:38,084 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-24 08:56:38,300 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[ZhouRod.SystemManage.MultiTenancy.Tenant, ZhouRod.SystemManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ZhouRod.SystemManage.Authorization.Users.User, ZhouRod.SystemManage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-24 08:56:38,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-24 08:56:38,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZhouRod.SystemManage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-24 08:56:38,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZhouRod.SystemManage.Users.Dto.CreateUserDto
+DEBUG 2020-05-24 08:56:38,381 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZhouRod.SystemManage.Users.Dto.UserDto
+DEBUG 2020-05-24 08:56:38,381 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZhouRod.SystemManage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-24 08:56:38,381 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZhouRod.SystemManage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-24 08:56:38,382 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZhouRod.SystemManage.Roles.Dto.PermissionDto
+DEBUG 2020-05-24 08:56:38,382 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZhouRod.SystemManage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-24 08:56:38,382 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZhouRod.SystemManage.MultiTenancy.Dto.TenantDto
+INFO  2020-05-24 08:56:42,254 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,zh-Hans,ja
+INFO  2020-05-24 08:56:42,697 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-24 08:56:42,809 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-24 08:56:42,947 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ZhouRod.SystemManage.Web.Host.Controllers.HomeController.Index (ZhouRod.SystemManage.Web.Host)'
+INFO  2020-05-24 08:56:48,547 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ZhouRod.SystemManage.Web.Host.Controllers.HomeController (ZhouRod.SystemManage.Web.Host).
+INFO  2020-05-24 08:56:50,248 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method ZhouRod.SystemManage.Web.Host.Controllers.HomeController.Index (ZhouRod.SystemManage.Web.Host) - Validation state: Valid
+INFO  2020-05-24 08:56:50,260 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method ZhouRod.SystemManage.Web.Host.Controllers.HomeController.Index (ZhouRod.SystemManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5851ms.
+INFO  2020-05-24 08:56:50,558 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-24 08:56:50,569 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action ZhouRod.SystemManage.Web.Host.Controllers.HomeController.Index (ZhouRod.SystemManage.Web.Host) in 2012.6822ms
+INFO  2020-05-24 08:56:50,573 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ZhouRod.SystemManage.Web.Host.Controllers.HomeController.Index (ZhouRod.SystemManage.Web.Host)'
+INFO  2020-05-24 08:56:50,612 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7794.8379ms 302 
+INFO  2020-05-24 08:56:50,616 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-05-24 08:56:50,677 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 47.9446ms 301 
+INFO  2020-05-24 08:56:50,682 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-24 08:56:50,753 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.9284ms 200 text/html;charset=utf-8
+INFO  2020-05-24 08:56:50,793 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-05-24 08:56:50,796 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-05-24 08:56:50,808 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-24 08:56:50,811 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-05-24 08:56:50,813 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-24 08:56:50,843 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\vs2019_code\Zhourod.ABP\ZhouRod.SystemManage\5.5.0\aspnet-core\src\ZhouRod.SystemManage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-05-24 08:56:50,851 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.9831ms 200 application/javascript
+INFO  2020-05-24 08:56:50,855 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\vs2019_code\Zhourod.ABP\ZhouRod.SystemManage\5.5.0\aspnet-core\src\ZhouRod.SystemManage.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-05-24 08:56:50,862 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.0339ms 200 application/javascript
+INFO  2020-05-24 08:56:50,871 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-05-24 08:56:50,876 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-05-24 08:56:50,884 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-05-24 08:56:50,889 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.2151ms 200 application/javascript
+INFO  2020-05-24 08:56:50,894 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 92.9106ms 200 application/javascript
+INFO  2020-05-24 08:56:50,899 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 99.2548ms 200 text/css
+INFO  2020-05-24 08:56:51,389 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-24 08:56:51,402 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'ZhouRod.SystemManage.Web.Host.Controllers.AntiForgeryController.SetCookie (ZhouRod.SystemManage.Web.Host)'
+INFO  2020-05-24 08:56:51,427 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller ZhouRod.SystemManage.Web.Host.Controllers.AntiForgeryController (ZhouRod.SystemManage.Web.Host).
+INFO  2020-05-24 08:56:51,474 [13   ] c.Infrastructure.ControllerActionInvoker - Executing action method ZhouRod.SystemManage.Web.Host.Controllers.AntiForgeryController.SetCookie (ZhouRod.SystemManage.Web.Host) - Validation state: Valid
+INFO  2020-05-24 08:56:51,477 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-24 08:56:51,496 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action method ZhouRod.SystemManage.Web.Host.Controllers.AntiForgeryController.SetCookie (ZhouRod.SystemManage.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 17.5792ms.
+INFO  2020-05-24 08:56:51,545 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-24 08:56:51,772 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action ZhouRod.SystemManage.Web.Host.Controllers.AntiForgeryController.SetCookie (ZhouRod.SystemManage.Web.Host) in 340.1202ms
+INFO  2020-05-24 08:56:51,776 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'ZhouRod.SystemManage.Web.Host.Controllers.AntiForgeryController.SetCookie (ZhouRod.SystemManage.Web.Host)'
+INFO  2020-05-24 08:56:51,780 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 394.954ms 200 application/json; charset=utf-8
+INFO  2020-05-24 08:56:51,794 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 316.3283ms 200 application/json;charset=utf-8

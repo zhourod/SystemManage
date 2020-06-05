@@ -1,0 +1,80 @@
+﻿@using ZhouRod.SystemManage.Web.Startup
+@model ZhouRod.SystemManage.Web.Models.SystemManage.SM.SMUsers.SMUserListViewModel
+@{
+    ViewBag.Title = L("SMUsers");
+    ViewBag.CurrentPageName = PageNames.SMUsers;
+}
+@section scripts
+{
+    <environment names="Development">
+        <script src="~/view-resources/Views/SystemManage/SM/SMUsers/Index.js" asp-append-version="true"></script>
+    </environment>
+
+    <environment names="Staging,Production">
+        <script src="~/view-resources/Views/SystemManage/SM/SMUsers/Index.min.js" asp-append-version="true"></script>
+    </environment>
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>@L("SMUsers")</h1>
+            </div>
+            <div class="col-sm-6">
+                <a href="javascript:;" data-toggle="modal" data-target="#SMUserCreateModal" class="btn bg-blue float-sm-right">
+                    <i class="fa fa-plus-square"></i>
+                    @L("Create")
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!--Use for bulk actions-->
+                            </div>
+                            <div class="col-md-6">
+                                @await Html.PartialAsync("~/Views/SMUsers/Index.AdvancedSearch.cshtml")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="SMUsersTable" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>@L("UserAccount")</th>
+                                        <th>@L("Email")</th>
+                                        <th>@L("CreationTime")</th>
+                                        <th>@L("CreatorUserId")</th>
+                                        <th>@L("LastModificationTime")</th>
+                                        <th>@L("LastModifierUserId")</th>
+                                        <th style="width: 150px">@L("Actions")</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@await Html.PartialAsync("~/Views/SMUsers/_CreateModal.cshtml", Model)
+<div class="modal fade" id="SMUserEditModal" tabindex="-1" role="dialog" aria-labelledby="SMUserEditModalLabel" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        </div>
+    </div>
+</div>

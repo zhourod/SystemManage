@@ -1,0 +1,47 @@
+﻿@using ZhouRod.SystemManage.Web.Models.Common.Modals
+@model ZhouRod.SystemManage.Web.Models.SystemManage.TM.TMTasks.TMTaskListViewModel
+@{
+    Layout = null;
+}
+<div class="modal fade" id="TMTaskCreateModal" tabindex="-1" role="dialog" aria-labelledby="TMTaskCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewTMTask")))
+            <form name="tMTaskCreateForm" role="form" class="form-horizontal">
+                <div class="modal-body">
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" for="State">@L("State")</label>
+                        <div class="col-md-9">
+                            <select name="State" class="form-control select2-dropdown">
+                                <option value="1">@L("Active")</option>
+                                <option value="2">@L("Completed")</option>
+                                <option value="3">@L("Inactive")</option>
+                            </select>
+                        </div>
+                        </div>
+                        <div class="form-group row required">
+                            <label class="col-md-3 col-form-label" for="Description">@L("Description")</label>
+                            <div class="col-md-9">
+                                <input id="Description" type="text" name="Description" class="form-control" required maxlength="50" minlength="2">
+                            </div>
+                        </div>
+                        <div class="form-group row ">
+                            <label class="col-md-3 col-form-label" for="AssignedPersonId">@L("AssignedPersonId")</label>
+                            <div class="col-md-9">
+                                <div class="row">
+                                    @foreach (var person in Model.TMPersons)
+                                    {
+                                        <div class="col-md-6">
+                                            <input type="radio" name="person" value="@person.Id" id="person-@person.Id" checked="checked" />
+                                            <label for="person-@person.Name">@person.Name</label>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+            </form>
+        </div>
+    </div>
+</div>

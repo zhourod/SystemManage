@@ -1,0 +1,66 @@
+﻿@using ZhouRod.SystemManage.Web.Models.Common.Modals
+@model ZhouRod.SystemManage.Web.Models.SystemManage.TM.TMTasks.EditTMTaskModalViewModel
+@{
+    Layout = null;
+}
+@Html.Partial("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditTMTask")))
+ <div class="modal-body">
+     <form name="TMTaskEditForm" role="form" novalidate class="form-validation">
+         <input type="hidden" name="Id" value="@Model.TMTask.Id" />
+         <ul class="nav nav-tabs tab-nav-right" role="tablist">
+            <li role="presentation" class="active"><a href="#edit-tMTask-details" data-toggle="tab">@L("TMTaskDetails")</a></li>
+        </ul>
+         <div class="tab-content">
+             <div role="tabpanel" class="tab-pane animated fadeIn active" id="edit-tMTask-details">
+                 <div class="row clearfix" style="margin-top:10px;">
+                     <div class="col-sm-12">
+                         <div class="form-group row form-float">
+                             <label class="col-md-3 col-form-label" for="State">@L("State")</label>
+                             <select name="State" class="form-control select2-dropdown col-md-9" value="@Model.TMTask.State">
+                                 <option value="1">@L("Active")</option>
+                                 <option value="2">@L("Completed")</option>
+                                 <option value="3">@L("Inactive")</option>
+                             </select>
+                         </div>
+                     </div>
+                 </div>
+                <div class="row clearfix" style="margin-top:10px;">
+                    <div class="col-sm-12">
+                        <div class="form-group row required">
+                            <label class="col-md-3 col-form-label" for="Description">@L("Description")</label>
+                            <div class="col-md-9">
+                                <input id="Description" type="text" name="Description" class="form-control" value="@Model.TMTask.Description" required maxlength="50" minlength="2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix" style="margin-top:10px;">
+                    <div class="col-sm-12">
+                        <div class="form-group row ">
+                            <label class="col-md-3 col-form-label" for="AssignedPersonId">@L("AssignedPersonId")</label>
+                            <div class="col-md-9">
+                                <div class="row">
+                                    @foreach (var person in Model.TMPersons)
+                                    {
+                                        <div class="col-md-6">
+                                            <input type="radio" name="AssignedPersonId" value="@person.Id" id="@($"person{person.Id}")"  @(Model.TMTask.AssignedPersonId==person.Id?"checked":" ") />
+                                            <label for="person-@person.Name">@person.Name</label>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            @*<select name="State" class="form-control select2-dropdown col-md-9" value="@Model.TMTask.State">
+                                <option value="1">@L("Active")</option>
+                                <option value="2">@L("Completed")</option>
+                                <option value="3">@L("Inactive")</option>
+                            </select>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+@Html.Partial("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+
+<script src="~/view-resources/Views/SystemManage/TM/TMTasks/_EditModal.js" asp-append-version="true"></script>
